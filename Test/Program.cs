@@ -22,15 +22,7 @@ namespace Test
 
         static async Task Main(string[] args)
         {
-
-
-            //Utf8JsonWriter
-            //Utf8JsonReader
-            //JsonSerializer 
             await RunDefault();
-            
-            //Task.WaitAll(Task.Run(StartConsumer),
-            //             Task.Run(StartPublisher));
         }
         private static async Task RunDefault()
         {
